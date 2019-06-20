@@ -1,1 +1,5 @@
-title: Hacklor
+# Site Settings
+site:
+  author:
+    name: Nicole Bekkers
+  title: Hacklor
