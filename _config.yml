@@ -3,3 +3,8 @@ site:
   author:
     name: Nicole Bekkers
   title: Hacklor
+
+# Jekyll Settings
+sass:
+  sass_dir: assets/scss
+
