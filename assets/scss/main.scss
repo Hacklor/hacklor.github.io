@@ -1,1 +1,16 @@
+$background-color: #FCFFF7;
 
+$navbar-color: #402E54;
+$header-color: #402E54;
+$color-1: #D0D7DD;
+$color-2: #BCBBCE;
+$color-3: #A8A9B7;
+
+.main-container {
+	background-color: $background-color;
+  border: 1px solid $navbar-color;
+}
+
+.navbar-bg-custom {
+    background-color: $navbar-color;
+}
