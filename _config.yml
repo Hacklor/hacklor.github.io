@@ -5,6 +5,9 @@ site:
   title: Hacklor
 
 # Jekyll Settings
+plugins:
+  - jekyll-coffeescript
+
 sass:
   sass_dir: assets/scss
 
