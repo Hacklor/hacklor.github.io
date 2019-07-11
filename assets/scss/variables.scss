@@ -1,0 +1,23 @@
+// Color Definition
+$color-blue-dark: #111320;
+$color-blue-1: #0017C0;
+$color-blue-2: #0D57C9;
+$color-blue-3: #1890D3;
+
+$color-blue-1-jumbotron: rgba(0, 23, 192, .8);
+$color-blue-2-jumbotron: rgba(12, 87, 201, .8);
+$color-blue-3-jumbotron: rgba(24, 144, 211, .8);
+
+$color-grey-light: #8B8E93;
+$color-grey-dark: #4C4F54;
+
+// Usage
+$h1-color: $color-blue-dark;
+$h2-color: $color-blue-1;
+$h3-color: $color-blue-2;
+$h4-color: $color-blue-3;
+
+$text-color-light: $color-grey-light;
+$text-color: $color-grey-dark;
+
+$navbar-color: $color-blue-1;

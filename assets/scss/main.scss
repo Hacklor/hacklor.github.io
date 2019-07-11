@@ -1,16 +1,31 @@
-$background-color: #FCFFF7;
-
-$navbar-color: #402E54;
-$header-color: #402E54;
-$color-1: #D0D7DD;
-$color-2: #BCBBCE;
-$color-3: #A8A9B7;
-
-.main-container {
-	background-color: $background-color;
-  border: 1px solid $navbar-color;
-}
-
 .navbar-bg-custom {
     background-color: $navbar-color;
+    background-image: linear-gradient( to right, $color-blue-1, $color-blue-2, $color-blue-3);
+}
+
+.jumbotron-custom {
+    background-color: $navbar-color;
+    background-image: linear-gradient( to right, $color-blue-1-jumbotron, $color-blue-2-jumbotron, $color-blue-3-jumbotron),
+      url('/assets/images/jumbotron-bg-bw.jpg');
+    background-size: 100% auto;
+
+    border-radius: 0 0 .3rem .3rem;
+}
+
+h1 {
+  color: $h1-color;
+  font-weight: bold;
+}
+
+h2 {
+  color: $h2-color;
+  font-weight: bold;
+}
+
+h3 {
+  color: $h3-color;
+}
+
+h4, h5, h6 {
+  color: $h4-color;
 }

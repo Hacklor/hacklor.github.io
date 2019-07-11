@@ -1,1 +1,10 @@
 // Bootstrap variable overrides
+
+$font-family-karla:           "Karla", sans-serif;
+$font-family-base:            $font-family-karla !default;
+
+$body-color:                  $text-color;
+
+$link-color:                  $color-blue-dark;
+
+$list-inline-padding:         1rem;
