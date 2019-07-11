@@ -3,7 +3,13 @@
   {% include head.html %}
 
   <body>
-    {{ content }}
+    <header class="sticky-top">
+      {% include navigation.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main
 
     {% include dependencies.html %}
   </body>
