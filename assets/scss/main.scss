@@ -1,3 +1,7 @@
+body {
+  min-width: 320px;
+}
+
 .navbar-bg-custom {
   background-color: $navbar-color;
   background-image: linear-gradient( to right, $color-blue-1, $color-blue-2, $color-blue-3);
