@@ -1,13 +1,16 @@
 .navbar-bg-custom {
-    background-color: $navbar-color;
-    background-image: linear-gradient( to right, $color-blue-1, $color-blue-2, $color-blue-3);
+  background-color: $navbar-color;
+  background-image: linear-gradient( to right, $color-blue-1, $color-blue-2, $color-blue-3);
 }
 
 .jumbotron-custom {
-    background-color: $navbar-color;
-    background-image: linear-gradient( to right, $color-blue-1-jumbotron, $color-blue-2-jumbotron, $color-blue-3-jumbotron),
-      url('/assets/images/jumbotron-bg-bw.jpg');
-    background-size: 100% auto;
+  background-color: $navbar-color;
+  background-image: linear-gradient( to right, $color-blue-1-jumbotron, $color-blue-2-jumbotron, $color-blue-3-jumbotron),
+    url('/assets/images/jumbotron-bg-bw.jpg');
+  background-size: cover;
+
+  border-radius: 0;
+}
 
     border-radius: 0;
 }
