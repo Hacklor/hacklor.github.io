@@ -16,7 +16,10 @@ body {
   border-radius: 0;
 }
 
-    border-radius: 0;
+@include media-breakpoint-up(md) {
+  .jumbotron-custom {
+    height: 420px;
+  }
 }
 
 h1 {
